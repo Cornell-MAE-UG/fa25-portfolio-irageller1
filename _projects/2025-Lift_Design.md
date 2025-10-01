@@ -13,4 +13,6 @@ Given a 2D design space of 150cm long and 50cm tall, a rigid bar of a fixed leng
 
 
 This was my solution:
-<img src="{{ /assets/images/LiftPicture.jpg | relative_url }}" alt="{{ left.pic }}" />
+<img src="{{ '/assets/images/LiftPicture.jpg' | relative_url }}" 
+     alt="Lift Picture" 
+     width="400" />
