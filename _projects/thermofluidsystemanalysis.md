@@ -11,4 +11,4 @@ I conducted the following lab to explore Heat Exchangers:
 
 <img src="{{ '/assets/images/heLab.jpg' | relative_url }}" 
      alt="Lift Picture"
-     width="1000"/>
+     width="700"/>
