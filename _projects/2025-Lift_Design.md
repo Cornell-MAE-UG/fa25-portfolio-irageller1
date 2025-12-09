@@ -14,8 +14,8 @@ Given a 2D design space of 150cm long and 50cm tall, a rigid bar of a fixed leng
 
 <img src="{{ '/assets/images/IMG_0233.jpeg' | relative_url }}" 
      alt="Lift Picture" 
-     width="400" />
+     width="600" />
 
 <img src="{{ '/assets/images/IMG_0234.jpeg' | relative_url }}" 
      alt="Lift Picture 2" 
-     width="400" />
+     width="600" />
