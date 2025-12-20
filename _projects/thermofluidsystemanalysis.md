@@ -11,8 +11,10 @@ I conducted the following lab to explore Heat Exchangers:
 
 <img src="{{ '/assets/images/Thermo HW11-4.jpeg' | relative_url }}" 
      alt="Mini heat pic"
-     width="850"/> 
+     width="850"
+     class="center-image" /> 
 
 <img src="{{ '/assets/images/Thermo HW11-5.jpeg' | relative_url }}" 
      alt="salt heat pic"
-     width="850"/> 
+     width="850"
+     class="center-image" /> 
