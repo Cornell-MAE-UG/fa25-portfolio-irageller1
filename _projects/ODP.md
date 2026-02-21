@@ -2,8 +2,8 @@
 layout: project
 title: Open Design Project
 description: Keeping grapes safe from spotted lantern flies
-technologies: [mechanical design]
-image: /assets/images/old-radio.jpg
+technologies: [Mechanical Design]
+image: \assets\images\old-radio.jpg
 show_header_image: false
 ---
 
@@ -14,5 +14,5 @@ As a class, we were tasked to create solutions to help the grape industry be les
      width="850"
      class="center-image" />
 
-[1] https://link.springer.com/article/10.1007/s10340-020-01233-7#Sec9
+[1] https://link.springer.com/article/10.1007/s10340-020-01233-7#Sec9  
 [2] https://academic.oup.com/jipm/article/16/1/2/7964417
