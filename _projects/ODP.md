@@ -13,3 +13,6 @@ As a class, we were tasked to create solutions to help the grape industry be les
      alt="Project Pitch"
      width="850"
      class="center-image" />
+
+[1] https://link.springer.com/article/10.1007/s10340-020-01233-7#Sec9
+[2] https://academic.oup.com/jipm/article/16/1/2/7964417
