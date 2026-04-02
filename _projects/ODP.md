@@ -120,7 +120,7 @@ The problem we are trying to address is that SLFs tend to land on grapes during 
 
 Due to the length constraints of our client pitch, we were only able to propose one of our two project ideas. But, after we had already sent our proposal, my team decided our second idea would be better to pursue due to its uniqueness and interesting mechanisms. What we decided to make was a trap that consists of a main containment area and a spinning top that forces SLFs sitting on top into it. As SLFs are drawn to light, the spinning disk would be transparent, allowing light from below to shine through and lure the SLFs in. Below is documentation of the fabrication, functionality, and testing of the main mechanism of our device -- the spinning top.
 
-<img src="{{ '/assets\images\ODP5 drawing.png' | relative_url }}" alt="Functional Prototype exploded CAD view" class="center-image odp-hero-image" />
+<img src="{{ '/assets\images\ODPdrawing.png' | relative_url }}" alt="Functional Prototype exploded CAD view_" class="center-image odp-hero-image" />
 
 <hr class="subsection-divider" />
 
