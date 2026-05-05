@@ -386,19 +386,14 @@ Prior to designing and fabricating our final prototype, we built an initial prot
 This prototype consisted of the upper components of our final device – the tube, acrylic plate, ridges, and roof. A string could then be wrapped around screws placed at the edge of the plate, and then pulled, to spin the device. By testing the spinning functionality of the acrylic plate, we were confident that when adding more sets of ridges on the final prototype, everything would work as intended. This testing is shown in Figure 6.
 
 <div class="odp-breakout">
-  <figure class="odp-figure">
     <img src="{{ '/assets/images/Fig6.png' | relative_url }}" alt="Prototype spinning functionality testing" class="center-image odp-hero-image" />
-    <figcaption>Figure 6</figcaption>
-  </figure>
 </div>
+
 
 Additionally, we tested to make sure that the threat of death was established by the ridges, while also forcing SLF down the tube, by using replica SLF made from paper towels. This testing is shown in Figure 7. As everything worked as planned, we decided to move forward with our design, with only small changes to its tolerances.
 
 <div class="odp-breakout">
-  <figure class="odp-figure">
     <img src="{{ '/assets/images/Fig7.png' | relative_url }}" alt="Prototype testing with replica SLF" class="center-image odp-hero-image" />
-    <figcaption>Figure 7</figcaption>
-  </figure>
 </div>
 
 <hr class="subsection-divider" />
