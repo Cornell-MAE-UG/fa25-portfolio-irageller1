@@ -403,3 +403,147 @@ footer {
     padding-left: 16px;
   }
 }
+
+.odp-page {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.odp-breakout {
+  width: min(1220px, calc(100vw - 48px));
+  max-width: none;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 16px 0 24px 0;
+}
+
+.odp-breakout .responsive-table {
+  width: 100%;
+  overflow-x: auto;
+  margin: 0;
+  border-radius: 12px;
+}
+
+.odp-breakout .responsive-table table {
+  width: 100%;
+  min-width: 0;
+  background: rgba(255, 255, 255, 0.62);
+}
+
+.part-table table {
+  table-layout: fixed;
+}
+
+.part-table th:nth-child(1),
+.part-table td:nth-child(1) {
+  width: 24%;
+}
+
+.part-table th:nth-child(2),
+.part-table td:nth-child(2) {
+  width: 76%;
+}
+
+.design-docs-table table {
+  table-layout: fixed;
+}
+
+.design-docs-table th,
+.design-docs-table td {
+  overflow-wrap: anywhere;
+  word-break: normal;
+}
+
+.design-docs-table th:nth-child(1),
+.design-docs-table td:nth-child(1) {
+  width: 30%;
+}
+
+.design-docs-table th:nth-child(2),
+.design-docs-table td:nth-child(2) {
+  width: 34%;
+}
+
+.design-docs-table th:nth-child(3),
+.design-docs-table td:nth-child(3) {
+  width: 16%;
+}
+
+.design-docs-table th:nth-child(4),
+.design-docs-table td:nth-child(4) {
+  width: 20%;
+}
+
+.odp-breakout .odp-test {
+  margin: 0;
+}
+
+.bom-layout {
+  display: grid;
+  grid-template-columns: minmax(280px, 1fr) minmax(280px, 1fr) auto;
+  gap: 28px;
+  align-items: end;
+}
+
+.bom-card h4 {
+  margin: 0 0 10px 0;
+  font-size: 1.9rem;
+  font-weight: 600;
+}
+
+.bom-card table {
+  width: 100%;
+  border-collapse: collapse;
+  background: rgba(255, 255, 255, 0.62);
+}
+
+.bom-card th,
+.bom-card td {
+  border: 1px solid rgba(0, 0, 0, 0.75);
+  padding: 14px 16px;
+  vertical-align: top;
+}
+
+.bom-card th {
+  text-align: left;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.bom-card .blank-row td {
+  height: 34px;
+}
+
+.bom-total-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 36px;
+  padding: 16px 18px;
+  border: 1px solid rgba(0, 0, 0, 0.75);
+  background: rgba(255, 255, 255, 0.62);
+  font-size: 1.2rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+@media (max-width: 1050px) {
+  .bom-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .bom-total-box {
+    width: fit-content;
+    min-width: 260px;
+  }
+}
+
+@media (max-width: 700px) {
+  .odp-breakout {
+    width: calc(100vw - 24px);
+  }
+
+  .bom-card h4 {
+    font-size: 1.4rem;
+  }
+}

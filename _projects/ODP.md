@@ -4,7 +4,7 @@ title: Open Design Project
 description: Keeping grapes safe from spotted lantern flies
 technologies: [Mechanical Design]
 image: /assets/images/SLFDevice.jpg
-show_header_image: false
+show_header_image: true
 ---
 
 <div class="project-jump-box">
@@ -144,61 +144,64 @@ diameter of Acrylic plate = 9”; thickness of disk = 1/16”; height from disk 
 
 <h3 id="design-documentation">Design Documentation:</h3>
 
-<div class="responsive-table">
-<table>
-  <thead>
-    <tr>
-      <th>Part Name</th>
-      <th>Specs</th>
-      <th>McMaster Code</th>
-      <th>Fabrication</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Ridges #1-9</td>
-      <td>0.875” tall, widths vary from .25”-1.25”</td>
-      <td>N/A</td>
-      <td>3d printed out of PLA and done at the RPL</td>
-    </tr>
-    <tr>
-      <td>Roof</td>
-      <td>r = 4.5”, matching ridges 3d printed with roof as one piece</td>
-      <td>N/A</td>
-      <td>3d printed out of PLA and done at the RPL</td>
-    </tr>
-    <tr>
-      <td>Tube</td>
-      <td>1.5” diameter</td>
-      <td>N/A</td>
-      <td>3d printed out of PLA and done at the RPL</td>
-    </tr>
-    <tr>
-      <td>Clear Scratch- and UV-Resistant Cast Acrylic Sheet</td>
-      <td>12&quot; x 12&quot; x 1/16&quot;</td>
-      <td>8560K171</td>
-      <td>Laser cut at RPL</td>
-    </tr>
-    <tr>
-      <td>Bolts</td>
-      <td>M4 12mm long from Taylor Design Studio</td>
-      <td>N/A</td>
-      <td>N/A</td>
-    </tr>
-    <tr>
-      <td>Nuts</td>
-      <td>M4 from TDS</td>
-      <td>N/A</td>
-      <td>N/A</td>
-    </tr>
-  </tbody>
-</table>
+<div class="odp-breakout">
+  <div class="responsive-table design-docs-table">
+    <table>
+      <thead>
+        <tr>
+          <th>Part Name</th>
+          <th>Specs</th>
+          <th>McMaster Code</th>
+          <th>Fabrication</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Ridges #1-9</td>
+          <td>0.875” tall, widths vary from .25”-1.25”</td>
+          <td>N/A</td>
+          <td>3d printed out of PLA and done at the RPL</td>
+        </tr>
+        <tr>
+          <td>Roof</td>
+          <td>r = 4.5”, matching ridges 3d printed with roof as one piece</td>
+          <td>N/A</td>
+          <td>3d printed out of PLA and done at the RPL</td>
+        </tr>
+        <tr>
+          <td>Tube</td>
+          <td>1.5” diameter</td>
+          <td>N/A</td>
+          <td>3d printed out of PLA and done at the RPL</td>
+        </tr>
+        <tr>
+          <td>Clear Scratch- and UV-Resistant Cast Acrylic Sheet</td>
+          <td>12&quot; x 12&quot; x 1/16&quot;</td>
+          <td>8560K171</td>
+          <td>Laser cut at RPL</td>
+        </tr>
+        <tr>
+          <td>Bolts</td>
+          <td>M4 12mm long from Taylor Design Studio</td>
+          <td>N/A</td>
+          <td>N/A</td>
+        </tr>
+        <tr>
+          <td>Nuts</td>
+          <td>M4 from TDS</td>
+          <td>N/A</td>
+          <td>N/A</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 </div>
 
 <hr class="subsection-divider" />
 
 <h3 id="design-testing">Design Testing:</h3>
 
+<div class="odp-breakout">
 <div class="odp-test" id="light-test">
 <h4>Light test</h4>
 <p>Does a sufficient percentage of light get through the clear acrylic compared to the amount inside? (ideally, at least 80% of light intensity passes through the acrylic so that the blocked light doesn’t pose the risk of overheating the system)</p>
@@ -206,6 +209,7 @@ diameter of Acrylic plate = 9”; thickness of disk = 1/16”; height from disk 
 <p><strong>Part Focus:</strong> Light and clear acrylic top</p>
 <p><strong>Results:</strong> We measured 740 lux coming from the phone without acrylic and 610 lux coming from the phone through the acrylic. This means that 83% of the light made it through the acrylic.</p>
 <p><strong>Conclusion:</strong> A sufficient proportion of light is escaping through the acrylic. No material change (in terms of thickness or composition) is needed for our next prototype.</p>
+</div>
 </div>
 
 <div class="odp-test" id="shake-test">
@@ -340,52 +344,89 @@ Additionally, we tested to make sure that the threat of death was established by
 
 <h3 id="bom-component-list">BOM/Component List:</h3>
 
-<div class="responsive-table">
-<table>
-  <thead>
-    <tr>
-      <th>BOM of Initial Prototype</th>
-      <th>Price</th>
-      <th>BOM of Final Prototype</th>
-      <th>Price</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>3D Prints</td>
-      <td>$5.36</td>
-      <td>Light</td>
-      <td>$19.99</td>
-    </tr>
-    <tr>
-      <td>Acrylic</td>
-      <td>$6.62</td>
-      <td>3D Prints</td>
-      <td>$65.26</td>
-    </tr>
-    <tr>
-      <td>Laser Cutting</td>
-      <td>$6.28</td>
-      <td>Acrylic</td>
-      <td>$6.62</td>
-    </tr>
-    <tr>
-      <td>Wood</td>
-      <td>$1.75</td>
-      <td>Laser Cutting</td>
-      <td>$25.13</td>
-    </tr>
-    <tr>
-      <td><strong>Total</strong></td>
-      <td><strong>$18.26</strong></td>
-      <td><strong>Total</strong></td>
-      <td><strong>$118.75</strong></td>
-    </tr>
-    <tr>
-      <td colspan="4"><strong>Total Spent $137.01</strong></td>
-    </tr>
-  </tbody>
-</table>
+<div class="odp-breakout">
+  <div class="bom-layout">
+    <div class="bom-card">
+      <h4>BOM of Initial Prototype</h4>
+      <table>
+        <thead>
+          <tr>
+            <th>Part</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>3D Prints</td>
+            <td>$5.36</td>
+          </tr>
+          <tr>
+            <td>Acrylic</td>
+            <td>$6.62</td>
+          </tr>
+          <tr>
+            <td>Laser Cutting</td>
+            <td>$6.28</td>
+          </tr>
+          <tr class="blank-row">
+            <td></td>
+            <td></td>
+          </tr>
+          <tr class="blank-row">
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><strong>Total</strong></td>
+            <td><strong>$18.26</strong></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="bom-card">
+      <h4>BOM of Final Prototype</h4>
+      <table>
+        <thead>
+          <tr>
+            <th>Part</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Light</td>
+            <td>$19.99</td>
+          </tr>
+          <tr>
+            <td>3D Prints</td>
+            <td>$65.26</td>
+          </tr>
+          <tr>
+            <td>Acrylic</td>
+            <td>$6.62</td>
+          </tr>
+          <tr>
+            <td>Wood</td>
+            <td>$1.75</td>
+          </tr>
+          <tr>
+            <td>Laser Cutting</td>
+            <td>$25.13</td>
+          </tr>
+          <tr>
+            <td><strong>Total</strong></td>
+            <td><strong>$118.75</strong></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="bom-total-box">
+      <span>Total Spent</span>
+      <span>$137.01</span>
+    </div>
+  </div>
 </div>
 
 <hr class="subsection-divider" />
