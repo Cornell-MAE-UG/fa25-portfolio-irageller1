@@ -319,7 +319,7 @@ Only two batches of assembly need to take place to build our device. After all t
 </div>
 
 <div class="odp-breakout">
-    <img src="{{ '/assets/images/Fig4.png' | relative_url }}" alt="Top part assembly of the device" class="center-image odp-hero-image" width="50%"/>
+    <img src="{{ '/assets/images/Fig4.png' | relative_url }}" alt="Top part assembly of the device" class="center-image odp-hero-image" width="40%"/>
 </div>
 
 <hr class="subsection-divider" />
