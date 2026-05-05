@@ -390,11 +390,12 @@ This prototype consisted of the upper components of our final device – the tub
 </div>
 
 
-Additionally, we tested to make sure that the threat of death was established by the ridges, while also forcing SLF down the tube, by using replica SLF made from paper towels. This testing is shown in Figure 7. As everything worked as planned, we decided to move forward with our design, with only small changes to its tolerances.
+Additionally, we tested to make sure that the threat of death was established by the ridges, while also forcing SLF down the tube, by using replica SLF made from paper towels. This testing is shown in Figure 7. As everything worked as planned, we decided to move forward with our design, with only small changes to its tolerances. hello
 
 <div class="odp-breakout">
-    <img src="{{ '/assets/images/Fig7.png' | relative_url }}" alt="Prototype testing with replica SLF" class="center-image odp-hero-image" />
+    <img src="{{C:\_HATE_ONEDRIVE\Documents\fa25-portfolio-irageller1\_site\assets\images\Fig7.png' | relative_url }}" alt="Prototype testing with replica SLF" class="center-image odp-hero-image" />
 </div>
+
 
 <hr class="subsection-divider" />
 
