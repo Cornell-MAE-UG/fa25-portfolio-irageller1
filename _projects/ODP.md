@@ -148,7 +148,6 @@ diameter of Acrylic plate = 9”; thickness of disk = 1/16”; height from disk 
 
 <h3 id="design-documentation">Design Documentation:</h3>
 
-<div class="odp-breakout">
   <div class="responsive-table design-docs-table">
     <table>
       <thead>
@@ -199,13 +198,12 @@ diameter of Acrylic plate = 9”; thickness of disk = 1/16”; height from disk 
       </tbody>
     </table>
   </div>
-</div>
 
 <hr class="subsection-divider" />
 
 <h3 id="design-testing">Design Testing:</h3>
 
-<div class="odp-breakout">
+
   <div class="odp-test" id="light-test">
     <h4>Light test</h4>
     <p>Does a sufficient percentage of light get through the clear acrylic compared to the amount inside? (ideally, at least 80% of light intensity passes through the acrylic so that the blocked light doesn’t pose the risk of overheating the system)</p>
@@ -214,7 +212,7 @@ diameter of Acrylic plate = 9”; thickness of disk = 1/16”; height from disk 
     <p><strong>Results:</strong> We measured 740 lux coming from the phone without acrylic and 610 lux coming from the phone through the acrylic. This means that 83% of the light made it through the acrylic.</p>
     <p><strong>Conclusion:</strong> A sufficient proportion of light is escaping through the acrylic. No material change (in terms of thickness or composition) is needed for our next prototype.</p>
   </div>
-</div>
+
 
 <div class="odp-breakout">
   <div class="odp-test" id="shake-test">
