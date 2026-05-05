@@ -214,7 +214,6 @@ diameter of Acrylic plate = 9”; thickness of disk = 1/16”; height from disk 
   </div>
 
 
-<div class="odp-breakout">
   <div class="odp-test" id="shake-test">
     <h4>Shake Test (Stability and Support)</h4>
     <p>Does the trap maintain integrity during shaky conditions as might be expected on a windy day?</p>
@@ -223,9 +222,7 @@ diameter of Acrylic plate = 9”; thickness of disk = 1/16”; height from disk 
     <p><strong>Results:</strong> We shook it and it did not fall apart. However, the nuts on the four corners of the device used to support our spinning mechanism string came loose</p>
     <p><strong>Conclusion:</strong> The device is robust, but for our next prototype, we should use nylon insert nuts to ensure longevity under vibrational conditions.</p>
   </div>
-</div>
 
-<div class="odp-breakout">
   <div class="odp-test" id="speed-test">
     <h4>Speed Test (Assembly and Fastening)</h4>
     <p>Does our spinning top hold up when rotating at higher operating speeds?</p>
@@ -234,9 +231,7 @@ diameter of Acrylic plate = 9”; thickness of disk = 1/16”; height from disk 
     <p><strong>Results:</strong> No parts of the mechanism broke. We were able to spin it at upwards of 7.25 rad/s with no issue (spun 3 rotations in 2.6s). However, we did notice slight friction between the ridges on the disc and the roof. It did not appear to affect the rotation speeds – rotation speed remained constant through the friction occurring.</p>
     <p><strong>Conclusion:</strong> The device structure is robust and can operate at high speeds. However, we need to come up with a way of spinning it so we can get more consistent speeds (pulling a string is a bit inconsistent). Additionally, ensuring that ridges are vertical will eliminate any friction between them as they rotate.</p>
   </div>
-</div>
 
-<div class="odp-breakout">
   <div class="odp-test" id="throw-tests">
     <h4>Throw Tests (Load-bearing Performance)</h4>
     <p>Will our device hold up when bugs land on it at high speeds?</p>
@@ -245,9 +240,7 @@ diameter of Acrylic plate = 9”; thickness of disk = 1/16”; height from disk 
     <p><strong>Results:</strong> We threw a mix of 6 (0.5-inch) and 6 (1-inch) bug models at the top spinning device, and not only did it not break, it “caught” all bugs that landed. Additionally, the roof also remained sturdy under “landing impact” without issues.</p>
     <p><strong>Conclusion:</strong> The robust top against landing impact and spinning mechanism works well in either trapping the LSF or squashing it. This type of structure works well; no change needed here.</p>
   </div>
-</div>
 
-<div class="odp-breakout">
   <div class="odp-test" id="high-volume-test">
     <h4>High Volume Test (Load Bearing and Performance)</h4>
     <p>Can the trap handle more than one bug going down the shaft at one time?</p>
@@ -256,9 +249,7 @@ diameter of Acrylic plate = 9”; thickness of disk = 1/16”; height from disk 
     <p><strong>Results:</strong> The 1 in bug models we made were too big to fit through the shaft. However, our 0.5 in models were able to be shaken out of the device. We were able to fit upwards of 6 0.5 in bugs into the assembly and still shake all of them out.</p>
     <p><strong>Conclusion:</strong> Due to the entrance to our tube being too similarly sized to a large SLF, they struggled to go down the tube when clumped. Therefore, for our next prototype, we would like to slightly increase the width of the opening (by approximately .25”).</p>
   </div>
-</div>
 
-<div class="odp-breakout">
   <div class="odp-test" id="tolerance-test">
     <h4>Tolerance Test (Assembly and Fastening)</h4>
     <p>Do our tolerances for the slotted ridges work out?</p>
@@ -267,7 +258,6 @@ diameter of Acrylic plate = 9”; thickness of disk = 1/16”; height from disk 
     <p><strong>Results:</strong> Everything fit together. However, we had to use a little bit more superglue than we wanted to attach the ridges.</p>
     <p><strong>Conclusion:</strong> We concluded that we need a slightly more snug fit – 0.01” as measured by a caliper – to ensure that minimal glue is used. We will apply this to the next prototype.</p>
   </div>
-</div>
 
 <hr class="subsection-divider" />
 
@@ -311,17 +301,11 @@ The core problem of the SLF is the fact that they are landing on grape vines and
 The device we have fabricated is a light trap that lures SLF away from the grape vines and traps them until they can be disposed of. The main mechanism of the trap is a clear, spinning plate with ridges that allow light to pass through, attracting SLF. The device works by allowing SLF to land on the plate and forcing them to either move into the tube at the center of the trap or be crushed by the interlocking ridges. The trapped bugs will be stored in the bottom container of our device and can be emptied at the user's convenience. The user can then clean out the SLF from the container and either throw them away or reuse them as feed for animals.
 
 <div class="odp-breakout">
-  <figure class="odp-figure">
     <img src="{{ '/assets/images/Fig1.png' | relative_url }}" alt="Constructed final prototype" class="center-image odp-hero-image" />
-    <figcaption>Fig 1: Constructed Final Prototype</figcaption>
-  </figure>
 </div>
 
 <div class="odp-breakout">
-  <figure class="odp-figure">
-    <img src="{{ '/assets/images/Fig2.png' | relative_url }}" alt="Final prototype exploded view" class="center-image odp-hero-image" />
-    <figcaption>Fig 2: Final Prototype exploded view. Legend at top right.</figcaption>
-  </figure>
+    <img src="{{ '/assets/images/Fig2.png' | relative_url }}" alt="Final prototype exploded view" class="center-image odp-hero-image" width="33%" />
 </div>
 
 <hr class="subsection-divider" />
@@ -331,17 +315,11 @@ The device we have fabricated is a light trap that lures SLF away from the grape
 Only two batches of assembly need to take place to build our device. After all the parts are manufactured, you first insert the pinion gear through the hole in the main body and into the crank, then secure it with a through bolt, as described in Figure 3. Next, the ridges press-fit into the holes on the top side of the acrylic plate in descending size order, with the largest ridges on the outside. These were secured with super glue to ensure rigidity. Then, the crown gear is superglued to the bottom side of the acrylic plate, ensuring it is centered. The 3D printed roof is then secured with superglue to the top of the tube, which is part of the device body, and can be viewed in Figure 4. Lastly, the containment tub and cover can be slid into the device body. A fully exploded CAD assembly is shown in Figure 2.
 
 <div class="odp-breakout">
-  <figure class="odp-figure">
-    <img src="{{ '/assets/images/Fig3.png' | relative_url }}" alt="Crank mechanism assembly" class="center-image odp-hero-image" />
-    <figcaption>Fig 3: Crank mechanism is assembled by pushing the helical pinion through the wall of the device and into the crank. A bolt then goes through both to secure.</figcaption>
-  </figure>
+    <img src="{{ '/assets/images/Fig3.png' | relative_url }}" alt="Crank mechanism assembly" class="center-image odp-hero-image" width="33%"/>
 </div>
 
 <div class="odp-breakout">
-  <figure class="odp-figure">
-    <img src="{{ '/assets/images/Fig4.png' | relative_url }}" alt="Top part assembly of the device" class="center-image odp-hero-image" />
-    <figcaption>Fig 4: The top part of the device is assembled by gluing the crown gear to the acrylic plate, then gluing the ridges into their holes, and then locking everything in by gluing the roof to the tube.</figcaption>
-  </figure>
+    <img src="{{ '/assets/images/Fig4.png' | relative_url }}" alt="Top part assembly of the device" class="center-image odp-hero-image" width="50%"/>
 </div>
 
 <hr class="subsection-divider" />
@@ -365,10 +343,7 @@ In order to ensure that our prototype met our success criteria, we designed test
 The second success criterion we established was that our trap should emit and disperse light effectively. Specifically, we wanted at least 80% of the light from our light source to pass through the trap top in order to minimize power demands and ensure that the strong light didn’t end up overheating the trap. We tested this by measuring the lux coming from our ring light both inside and outside of our trap with a phone app that utilized the phone's light sensor, as seen in Figure 5. We held the phone 5 inches above the light and used a piece of paper as a diffuser. We found that the light dropped very little, from 14400 to 14200 lux, and determined that 98.6% of the light was able to pass through the trap. Our design will be able to let through sufficient light to lure the SLF without expending massive amounts of power.
 
 <div class="odp-breakout">
-  <figure class="odp-figure">
     <img src="{{ '/assets/images/Fig5.png' | relative_url }}" alt="Light testing setup" class="center-image odp-hero-image" />
-    <figcaption>Figure 5</figcaption>
-  </figure>
 </div>
 
 Our third success criterion was that our trap could handle multiple SLF landing on a section of it at once, as could occur in actual use. We did not have sufficient data on how SLF are attracted to light, so we set a target of handling 3 SLF landing on the trap at once, which we estimated was a reasonable figure. We made small SLF models out of paper towels and tape and attempted to push them through the trap. On our first prototype, where it was easier to simulate the motion of the SLF by pushing them, we were able to fit 6 SLF models through the central tube at once without any getting stuck. On our final, we were able to shake the trap to simulate SLF crawling through the central tube, and 3 SLF were able to be shaken into the holding container at the bottom. This indicates that our trap will be able to effectively handle trapping multiple flies at once.
@@ -393,7 +368,7 @@ This prototype consisted of the upper components of our final device – the tub
 Additionally, we tested to make sure that the threat of death was established by the ridges, while also forcing SLF down the tube, by using replica SLF made from paper towels. This testing is shown in Figure 7. As everything worked as planned, we decided to move forward with our design, with only small changes to its tolerances.
 
 <div class="odp-breakout">
-    <img src="{{C:\_HATE_ONEDRIVE\Documents\fa25-portfolio-irageller1\_site\assets\images\Fig7.png' | relative_url }}" alt="Prototype testing with replica SLF" class="center-image odp-hero-image" />
+    <img src="{{ '/assets/images/Fig7.png' | relative_url }}" alt="Prototype testing with replica SLF" class="center-image odp-hero-image" />
 </div>
 
 
