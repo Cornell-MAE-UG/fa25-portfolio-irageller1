@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title description">
+  <title id="title">Engineering Project Team</title>
+  <desc id="description">A technical blueprint-style project card with mechanical design symbols.</desc>
+  <rect width="1200" height="800" fill="#eff6e0"/>
+  <g stroke="#598392" fill="none" stroke-width="8" opacity="0.24">
+    <path d="M70 100h1060M70 700h1060M100 70v660M1100 70v660"/>
+    <circle cx="230" cy="235" r="86"/>
+    <circle cx="230" cy="235" r="34"/>
+    <circle cx="970" cy="565" r="86"/>
+    <circle cx="970" cy="565" r="34"/>
+    <path d="M230 149v-45M230 366v-45M144 235H99M361 235h-45M970 479v-45M970 696v-45M884 565h-45M1101 565h-45"/>
+    <path d="M315 235h185l95 130h190l99 200M316 565h220l96-130h253"/>
+    <path d="M500 208v54M536 538v54M785 338v54M632 408v54"/>
+  </g>
+  <g fill="#01161e" text-anchor="middle" font-family="Montserrat, Arial, sans-serif">
+    <text x="600" y="315" font-size="68" font-weight="700">ENGINEERING</text>
+    <text x="600" y="395" font-size="68" font-weight="700">PROJECT TEAM</text>
+    <text x="600" y="475" font-size="42" letter-spacing="7">2025–2026</text>
+  </g>
+  <path d="M430 520h340" stroke="#598392" stroke-width="8"/>
+</svg>
