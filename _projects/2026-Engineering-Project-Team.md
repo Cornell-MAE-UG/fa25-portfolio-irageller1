@@ -21,6 +21,18 @@ show_header_image: false
 
 <p class="pdf-project-link">
   <a class="btn pdf-project-button" href="{{ '/assets/Ira_Geller_Mechanical_Engineering_Portfolio_Updated.pdf' | relative_url }}" target="_blank" rel="noopener">
-    Open PDF in a new tab
+    Open portfolio PDF in a new tab
   </a>
 </p>
+
+<div class="project-jump-box supporting-document-card">
+  <h2>Full 2025–2026 Design Report</h2>
+  <p>
+    For a detailed look at the team's engineering process, analysis, design decisions, manufacturing, and testing, read the complete design report from the 2025–2026 school year.
+  </p>
+  <p>
+    <a class="btn pdf-project-button" href="{{ '/assets/2026-Design-Report.pdf' | relative_url }}" target="_blank" rel="noopener">
+      View full design report (PDF, 90 MB)
+    </a>
+  </p>
+</div>
