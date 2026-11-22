@@ -8,4 +8,6 @@ published: false
 ---
 
 
-To be filled in
+<p>
+    For the FMD my group is taking apart an ice maker. We will be exploring how its fluid machine components function to make the system as a whole work
+</p>
